@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Profile View</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://127.0.0.1:8000/libraryapp/logout/">Logout</a>
+  </div>
+</nav>
+    <div class="container">
+
+    <center>
+<h3>WELCOME</h3>
+    </center>
+     <hr>
+    <table class="table table-striped table-warning">
+
+
+<tr><td>Name:</td><td>{{user.user.first_name}}</td></tr>
+        <tr><td>Department:</td><td>{{user.department}}</td></tr>
+<tr><td>Phone No:</td><td>{{user.phone}}</td></tr>
+        <tr><td>College:</td><td>{{user.college_name}}</td></tr>
+        <tr><td></td><td><a class="btn btn-info" href="http://127.0.0.1:8000/libraryapp/profileupdate/{{user.user.id}}">Edit</a></td></tr>
+        </table>
+
+
+
+</div>
+<div class="container">
+<table>
+    <tr >
+<td style="padding-left:150px;"><a class="btn btn-info " href="http://127.0.0.1:8000/libraryapp/studentbooks/">View Books</a></td>
+<td style="padding-left:300px;"><a class="btn btn-info " href="http://127.0.0.1:8000/libraryapp/studentborrow/">Borrowed Book Info</a></td>
+<td style="padding-left:300px;"><a class="btn btn-info " href="">Borrowed History</a></td>
+    </tr>
+
+</table>
+    </div>
+</body>
+</html>

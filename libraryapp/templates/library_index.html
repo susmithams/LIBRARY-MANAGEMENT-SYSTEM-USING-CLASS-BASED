@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+.row{
+  background-image:url("{% static 'image/img1.png' %}");
+
+    }
+
+    p{color:white;
+    font-size:20px;
+    padding-left:20rem;}
+</style>
+<body>
+<div class="container-fluid">
+    <nav class="navbar fixed-top navbar-light bg-dark">
+  <div class="container">
+            <p align="center"><strong>😍💞💘 𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝓣𝓞 𝓥𝓐𝓢𝓣 𝓛𝓘𝓑𝓡𝓐𝓡𝓨 💔💏💖</strong></p>
+
+      <a class="navbar-brand" href="http://127.0.0.1:8000/libraryapp/addbook/" style="color:white;font-size:15px;" >UPLOAD BOOKS</a>
+      <a class="navbar-brand" href="http://127.0.0.1:8000/libraryapp/booksview/" style="color:white;font-size:15px;" >VIEW BOOKS</a>
+      <a class="navbar-brand" href="http://127.0.0.1:8000/libraryapp/libbookrequest/" style="color:white;font-size:15px;" >REQUESTED BOOKS</a>
+  </div>
+</nav>
+    <div class="row">
+        <img src="{% static 'static/image/img1.png' %}"style="height:50rem;width:120rem;">
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
