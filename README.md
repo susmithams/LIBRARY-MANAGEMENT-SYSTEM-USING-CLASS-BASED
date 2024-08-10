@@ -13,3 +13,8 @@ Librarian:
 
 Librarians will manage the book inventory, including adding new books, updating book information, and removing old books.
 Librarians will also handle user accounts, approve book borrow requests, and track borrowed books.
+
+
+To see this please go to the link
+
+https://drive.google.com/file/d/1D_MZtpqD6euiq39sxX9J22Kyy48p6S62/view?usp=sharing
